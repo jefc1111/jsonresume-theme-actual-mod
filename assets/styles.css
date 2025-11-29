@@ -220,9 +220,6 @@ li:first-child {
   display: block;
   padding: 0 10px;
   margin-bottom: 0;
-  columns: 2;
-  column-width: 310px;
-  column-gap: 10px;
 }
 .main .highlights li {
   font-size: 14px;
@@ -231,6 +228,11 @@ li:first-child {
 .main .highlights li:before {
   content: "· ";
   vertical-align: middle;
+}
+.main .columnar {
+  columns: 2;
+  column-width: 310px;
+  column-gap: 10px;
 }
 .main .left {
   display: table-cell;
@@ -266,11 +268,12 @@ li:first-child {
   margin-left: -5.6px;
 }
 .basics .main .label {
-  font-size: 40px;
+  font-size: 29.5px;
   line-height: 1em;
   font-weight: lighter;
   display: block;
   margin-left: -1.6px;
+  margin-top: 12px;
 }
 .basics .side {
   vertical-align: middle;
