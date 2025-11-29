@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Workaround for 'break-before:avoid' */
 * {
   margin: 0;
@@ -220,8 +221,22 @@ li:first-child {
   padding: 0 10px;
   margin-bottom: 0;
 }
+.main .highlights ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
 .main .highlights li {
+  padding-left: 1em;
+  text-indent: -1em;
   font-size: 14px;
+  list-style: none;
+  left: 0;
+}
+.main .highlights li:before {
+  content: "· ";
+  vertical-align: middle;
+  padding-right: 5px;
 }
 .main .columnar {
   columns: 2;

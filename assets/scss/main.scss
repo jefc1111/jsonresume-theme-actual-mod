@@ -8,14 +8,24 @@
     padding: 0 $space-1;
     margin-bottom: 0;
 
-    li {
-      font-size: $font-size-xsmall;
-      // list-style: none;
+    ul {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
 
-      // &:before {
-      //   content: "· ";
-      //   vertical-align: middle;
-      // }
+    li {
+      padding-left: 1em;
+      text-indent: -1em;
+      font-size: $font-size-xsmall;
+      list-style: none;
+      left: 0;
+      
+      &:before {
+        content: "· ";
+        vertical-align: middle;
+        padding-right: 5px;
+      }
     }
   }
 
