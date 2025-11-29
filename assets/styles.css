@@ -218,7 +218,7 @@ li:first-child {
 .main .highlights {
   width: auto;
   display: block;
-  padding: 0 10px;
+  padding: 0;
   margin-bottom: 0;
 }
 .main .highlights ul {
@@ -234,7 +234,7 @@ li:first-child {
   left: 0;
 }
 .main .highlights li:before {
-  content: "· ";
+  content: "• ";
   vertical-align: middle;
   padding-right: 5px;
 }
