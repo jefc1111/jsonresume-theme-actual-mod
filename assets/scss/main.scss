@@ -10,12 +10,12 @@
 
     li {
       font-size: $font-size-xsmall;
-      list-style: none;
+      // list-style: none;
 
-      &:before {
-        content: "· ";
-        vertical-align: middle;
-      }
+      // &:before {
+      //   content: "· ";
+      //   vertical-align: middle;
+      // }
     }
   }
 
