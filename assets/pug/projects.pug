@@ -1,6 +1,6 @@
 if helper.validArray(resume.projects)
   div(class='projects margin-container-4')
-    p(class='section-title no-alone-2') Projects
+    p(class='section-title no-alone-2') Side projects
     div(class='container')
       each project in resume.projects
         div(class='article margin-container-3')
@@ -14,6 +14,6 @@ if helper.validArray(resume.projects)
                 span(class='date')=helper.calcDateRange(project.startDate, project.endDate)
           div(class='summary markdown margin-text-4')!=helper.mdToHtml(project.description)
           if helper.validArray(project.highlights)
-            ul(class='highlights margin-text-4 no-break')
+            ul(class='highlights columnar margin-text-4 no-break')
               each highlight in project.highlights
                 li=highlight
