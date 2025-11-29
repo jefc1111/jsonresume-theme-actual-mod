@@ -12,11 +12,12 @@
     }
 
     .label {
-      font-size: $header-line-font-size;
+      font-size: 29.5px;//$header-line-font-size;
       line-height: 1em;
       font-weight: lighter;
       display: block;
       margin-left: -$header-line-font-size*0.04;
+      margin-top: 12px;
     }
   }
 
